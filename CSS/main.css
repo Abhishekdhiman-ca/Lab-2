@@ -223,7 +223,7 @@ td {
 }
 
 th {
-  background-color: #227d4a;
+  background-color: #2f4f4f;
   color: #fff;
 }
 
@@ -329,81 +329,6 @@ main {
     font-size: 14px;
   }
 }
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  border-radius: 8px;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #0c0c0c;
-  border-radius: 15px;
-  color: #fff;
-}
-
-/* Show the dropdown menu on click */
-.dropdown:focus-within .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:focus-within .dropbtn {
-  background-color: #0f0f0f;
-}
-
-@media screen and (max-width: 600px) {
-  /* Reduce padding on dropdown button for smaller screens */
-  .dropbtn {
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  /* Increase width of dropdown content for smaller screens */
-  .dropdown-content {
-    min-width: 120px;
-  }
-
-  /* Make dropdown menu full width on smaller screens */
-  .dropdown-content a {
-    width: 100%;
-  }
-}
-
-.dropbtn {
-  background-color: #247949;
-  color: white;
-  padding: 15px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 8px;
-  border-radius: 8px;
-}
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #111110;
-}
-
 /* Footer styles */
 
 .last {
