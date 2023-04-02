@@ -1,5 +1,7 @@
+/* Reset styles */
 * {
   font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
 }
 
 .signup-container {
