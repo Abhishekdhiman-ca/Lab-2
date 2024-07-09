@@ -467,6 +467,155 @@ iframe {
 
 @media screen and (max-width: 600px) {
   iframe {
-    max-width: fit-content;
+    max-width:fit-content;
   }
+}
+
+/* Signin styles */
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: auto;
+  max-width: 500px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #26653f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #39a278;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  border-radius: 45%;
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.LOGO {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container .psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* Signup styles */
+
+
+.signup-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #f6f9f9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: #0b0b0b;
+  text-align: center;
+}
+.imgcontainer {
+  border-radius: 45%;
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #34996c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #288764;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ef1f1f;
 }
